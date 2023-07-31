@@ -15,7 +15,7 @@ from langchain.prompts import PromptTemplate
 from django.conf import settings
 from core.models import LLMTransaction
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = settings.OPENAI_API_KEY
 
 class Stores(Enum):
     FAISIS = 'faisis'
