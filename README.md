@@ -1,4 +1,8 @@
 # cancerllm
+
+![Screenshot](screenshot.png)
+
+
 This django framework tries to ingest documents related to NCCN guidlines and drives the LLM using contextual injection method.
 
 Most of the important code is part of llmutils.py under core app of this project.
